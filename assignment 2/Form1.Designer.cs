@@ -100,6 +100,8 @@
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox32 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.yuy.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -455,6 +457,7 @@
             this.tabPage7.TabIndex = 3;
             this.tabPage7.Text = "series 4";
             this.tabPage7.UseVisualStyleBackColor = true;
+            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
             // 
             // pictureBox6
             // 
@@ -523,6 +526,7 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.label22);
             this.tabPage8.Controls.Add(this.textBox22);
             this.tabPage8.Controls.Add(this.textBox21);
             this.tabPage8.Controls.Add(this.textBox20);
@@ -697,6 +701,7 @@
             // 
             // tabPage10
             // 
+            this.tabPage10.Controls.Add(this.label23);
             this.tabPage10.Controls.Add(this.textBox32);
             this.tabPage10.Controls.Add(this.textBox31);
             this.tabPage10.Controls.Add(this.textBox30);
@@ -786,6 +791,22 @@
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(44, 20);
             this.textBox32.TabIndex = 8;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(158, 223);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(0, 13);
+            this.label22.TabIndex = 8;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(144, 226);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(0, 13);
+            this.label23.TabIndex = 9;
             // 
             // Form1
             // 
@@ -906,6 +927,8 @@
         private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
     }
 }
 

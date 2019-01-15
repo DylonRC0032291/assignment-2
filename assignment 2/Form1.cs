@@ -30,7 +30,7 @@ namespace assignment_2
             }
             catch
             {
-                MessageBox.Show("ye ma's dead");
+                MessageBox.Show("retry that");
             }
 
 
@@ -55,7 +55,7 @@ namespace assignment_2
             }
             catch
             {
-                MessageBox.Show("ye ma's dead");
+                MessageBox.Show("unlucky");
             }
         }
 
@@ -66,12 +66,12 @@ namespace assignment_2
                 double resistor = double.Parse(textBox8.Text);
                 double resistor2 = double.Parse(textBox9.Text);
                 double answer = 1.0 / (1.0 / resistor + 1.0 / resistor2 + 1.0);
-
+                label9.Text = answer.ToString();
             }
 
             catch
             {
-                MessageBox.Show("your mother is deceased");
+                MessageBox.Show("tennis ball");
             }
         }
 
@@ -132,12 +132,12 @@ namespace assignment_2
                 double resistor3 = double.Parse(textBox17.Text);
                 double resistor4 = double.Parse(textBox18.Text);
                 double answer = resistor + resistor2;
-                label11.Text = answer.ToString();
+                label15.Text = answer.ToString();
         
             }
             catch
             {
-                MessageBox.Show("its britney bitch");
+                MessageBox.Show("try again");
             }
         }
 
@@ -150,7 +150,7 @@ namespace assignment_2
                 double resis3 = double.Parse(textBox21.Text);
                 double resis4 = double.Parse(textBox22.Text);
                 double answer = 1.0 / (1.0 / resis + 1.0 / resis2 + 1.0 / resis3 + 1.0 / resis4);
-                label13.Text = answer.ToString();
+                label22.Text = answer.ToString();
             }
             catch
             {
@@ -168,7 +168,7 @@ namespace assignment_2
                 double resistorr4 = double.Parse(textBox26.Text);
                 double resistorr5 = double.Parse(textBox27.Text);
                 double answer = resistorr + resistorr2 + resistorr3 + resistorr4 + resistorr5;
-                label18.Text = answer.ToString();
+                label19.Text = answer.ToString();
             }
             catch
             {
@@ -186,7 +186,7 @@ namespace assignment_2
                 double r4 = double.Parse(textBox31.Text);
                 double r5 = double.Parse(textBox32.Text);
                 double answer = 1.0 / (1.0 / r + 1.0 / r2 + 1.0 / r3 + 1.0 / r4 + 1.0 / r5);
-                label13.Text = answer.ToString();
+                label23.Text = answer.ToString();
             }
             catch
             {
@@ -195,6 +195,11 @@ namespace assignment_2
         }
 
         private void textBox30_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
         {
 
         }
